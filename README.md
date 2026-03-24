@@ -29,6 +29,7 @@ Event Management System is a modern, scalable, and user-friendly web application
 ---
 
 ## 📁 Project Structure
+```
 EventManagementSystem/
 ├── Controllers/ # Handles application logic
 ├── Models/ # Data models and entities
