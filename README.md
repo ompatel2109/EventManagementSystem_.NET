@@ -29,3 +29,45 @@ Event Management System is a modern, scalable, and user-friendly web application
 ---
 
 ## 📁 Project Structure
+EventManagementSystem/
+├── Controllers/ # Handles application logic
+├── Models/ # Data models and entities
+├── Views/ # UI pages (Razor / MVC Views)
+├── Data/ # Database context and migrations
+├── wwwroot/ # Static files (CSS, JS, images)
+├── appsettings.json # Configuration file
+├── Program.cs # Entry point
+├── Startup.cs # Middleware & services config
+└── README.md # Project documentation
+
+
+---
+
+## 🧑‍💻 How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/ompatel2109/EventManagementSystem_NET.git
+
+# Open project
+cd EventManagementSystem_NET
+
+# Restore dependencies
+dotnet restore
+
+# Run the project
+dotnet run
+
+⚙️ Configuration
+
+Update your database connection string in:
+
+appsettings.json
+
+Example:
+
+"ConnectionStrings": {
+  "DefaultConnection": "Server=YOUR_SERVER;Database=EventDB;Trusted_Connection=True;"
+}
+
+
